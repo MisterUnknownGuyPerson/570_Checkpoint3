@@ -12,6 +12,8 @@ DEMO VIDEO
 A copy of the code INCLUDING THE MODELS (they are too large files for github) are all locared in the google drive linked bellow.
 You can download the models here: https://drive.google.com/drive/folders/1QHVOziEfOcHl37DD9FxHPBuP8jrvPP2F?usp=sharing
 
+The best model i managed to train was model_final_2.pt , you can look at the results folder
+
 The code extends the work of Zhu et Al's Denoising Diffusion Models for Plug-and-Play Image Restoration. The code I built on top of is located at: 
 
 https://github.com/yuanzhi-zhu/DiffPIR.git
