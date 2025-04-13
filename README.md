@@ -3,14 +3,17 @@ Those who know, know
 
 Hello, this is my code for checkpoint 3. All of the code is here.
 
-The code extends the work of Zhu et Al's Denoising Diffusion Models for Plug-and-Play Image Restoration. 
-The code I built on top of is located at: https://github.com/yuanzhi-zhu/DiffPIR.git
+The code extends the work of Zhu et Al's Denoising Diffusion Models for Plug-and-Play Image Restoration. The code I built on top of is located at: 
 
-Additionally for training the diffusion model I used OpenAI's guded diffusion:
-Code for training is based on: https://github.com/openai/guided-diffusion.git
+https://github.com/yuanzhi-zhu/DiffPIR.git
 
-I used images 60000 - 69000 from FFHQ
-And the testset I used is located at: https://github.com/NVlabs/ffhq-dataset.git
+Additionally for training the diffusion model I used OpenAI's guded diffusion: Code for training is based on: 
+
+https://github.com/openai/guided-diffusion.git
+
+I used images 60000 - 69000 from FFHQ and the testset I used is located at: 
+
+https://github.com/NVlabs/ffhq-dataset.git
 
 
 The model is large to upload to github so instead it is located on google drive found here, same as the video, if it is not uploaded on circuit you can find it on this google drive.
