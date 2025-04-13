@@ -39,7 +39,7 @@ At runtime on colab there are code blocks in the file above that mount google dr
 The unzipped image folders may contain subfolders so use the flatten code block to remove all the subfolders and place all images in one folder.
 
 Now the model can be trained, all the way at the bottom , second to last code block is used to move the terminal to the code directory. (change to the directoy of your code)
-And the final code block in the colab file starts the training process. YOu can modify it however you would like. The code that I wrote that does the training is in train_dark2bright.py
+And the final code block in the colab file starts the training process. You can modify it however you would like. The code that I wrote that does the training is in train_dark2bright.py
 Also check where the checkpoints are going to save and make sure the image adresses are correct for your setup.
 
 After training, you can move on to inference, for this you could also use colab, I used my laptop, It doesn't really matter, colab may likely be faster.
@@ -48,5 +48,7 @@ The may thing to do before running inference is making sure the file paths are c
 Specifically in main(): "model_path"; ; "input_dark_dir"; "output_dir":
 
 Here you can modify the parameters in main depending on the model you use. Timestep respacing can be tweeked for any model, 25 is fast but noisy output, 1000 is slow but good output. You can use any values in the range.
+
+You can mount the colab notebook and run all the code blocks, scripts, training and inference from there.
 
 Good Luck Have Fun
