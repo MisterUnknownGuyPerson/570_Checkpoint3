@@ -4,8 +4,11 @@ Those who know, know
 Hello, this is my code for checkpoint 3. All of the code is here.
 
 DEMO VIDEO
+
 DEMO VIDEO is located on google drive https://drive.google.com/file/d/1l811tM6O5mRNnPH54qx6yOt_EQHtCn_X/view?usp=drive_link
+
 DEMO VIDEO
+
 A copy of the code INCLUDING THE MODELS (they are too large files for github) are all locared in the google drive linked above.
 You can download the models from the link above
 
