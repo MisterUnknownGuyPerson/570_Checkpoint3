@@ -1,39 +1,47 @@
 # 570_Checkpoint3
-Those who know, know
+> *Those who know, know*
 
-Hello, this is my code for checkpoint 3. All of the code is here.
+This repository contains the full implementation for **Checkpoint 3** of the ECE570 course project. The code builds upon the work of Zhu et al.'s *Denoising Diffusion Models for Plug-and-Play Image Restoration* and adapts it for the novel task of **illumination enhancement** using conditional diffusion.
 
-DEMO VIDEO
+[Demo Video on Google Drive](https://drive.google.com/file/d/1l811tM6O5mRNnPH54qx6yOt_EQHtCn_X/view?usp=drive_link)
 
-DEMO VIDEO is located on google drive https://drive.google.com/file/d/1l811tM6O5mRNnPH54qx6yOt_EQHtCn_X/view?usp=drive_link
+## 📦 Code and Models
+All code is provided in this repository. However, due to file size limitations, **trained model checkpoints** are hosted externally, you can download the code from this github, or the google drive bellow, however the models are only on the google drive.
 
-DEMO VIDEO
+📁 **Download models and full project folder here**:  
+[Google Drive - Models & Files](https://drive.google.com/drive/folders/1QHVOziEfOcHl37DD9FxHPBuP8jrvPP2F?usp=sharing)
 
-A copy of the code INCLUDING THE MODELS (they are too large files for github) are all locared in the google drive linked bellow.
-You can download the models here: https://drive.google.com/drive/folders/1QHVOziEfOcHl37DD9FxHPBuP8jrvPP2F?usp=sharing
+**Best performing model**: `model_final_2.pt`  
+(Results are located in the `results` folder.)
 
-The best model i managed to train was model_final_2.pt , you can look at the results folder
+## Built On
 
-The code extends the work of Zhu et Al's Denoising Diffusion Models for Plug-and-Play Image Restoration. The code I built on top of is located at: 
+- 🔁 Zhu et al.’s **DiffPIR**:
+  https://github.com/yuanzhi-zhu/DiffPIR.git
+- 🧪 OpenAI’s **guided-diffusion**:
+  https://github.com/openai/guided-diffusion.git
+- 🧍‍♂️ Face dataset (FFHQ):  
+  https://github.com/NVlabs/ffhq-dataset.git  
+  (Images 60000–69000 were used.)
 
-https://github.com/yuanzhi-zhu/DiffPIR.git
+## How to Use
 
-Additionally for training the diffusion model I used OpenAI's guded diffusion: Code for training is based on: 
+### Environment
 
-https://github.com/openai/guided-diffusion.git
+- Run on **Google Colab Pro (A100 GPU)** for training - Use the .ipynb file and open google colab colab
+- Run on anything for inference
 
-I used images 60000 - 69000 from FFHQ and the testset I used is located at: 
+### Training Workflow
 
-https://github.com/NVlabs/ffhq-dataset.git
-
-
-The model is large to upload to github so instead it is located on google drive found here, same as the video, if it is not uploaded on circuit you can find it on this google drive.
-Model download:
-
-The way I developed and used this code, and they way you can go about figuring out how it works is:
-
-Copying, uploading and looking throught this colab file which is used for the code to run.
-
+1. **Mount your Google Drive** in Colab.
+2. **Place all code and zip folders** of the images in Drive.
+3. Use code blocks in the Colab notebook to:
+   - Mount Drive
+   - **Unzip image folders** into Colab memory
+   - (If subfolders exist, use flattening block to consolidate)
+   - change directory
+   - start traininig
+  
 I put all of the code on my google drive, along with zip folders of the images. 
 At runtime on colab there are code blocks in the file above that mount google drvie and move the images and unzip them in the runtime memory.
 The unzipped image folders may contain subfolders so use the flatten code block to remove all the subfolders and place all images in one folder.
