@@ -37,9 +37,7 @@ All code is provided in this repository. However, due to file size limitations, 
 
 ### Training Workflow
 
-1. **Mount your Google Drive** in Colab.
-2. **Place all code and zip folders** of the images in Drive.
-3. Use code blocks in the Colab notebook to:
+  Use the colab file in this repository to:
    - Mount Drive
    - **Unzip image folders** into Colab memory
    - (If subfolders exist, use flattening block to consolidate)
