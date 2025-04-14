@@ -26,7 +26,7 @@ All code is provided in this repository. However, due to file size limitations, 
 - OpenAI’s **guided-diffusion**:
   https://github.com/openai/guided-diffusion.git
 - Image dataset **FFHQ**: https://github.com/NVlabs/ffhq-dataset.git
-  (Images 60000–69000 were used.)
+    (Images 60000–69999 were used)
 
 ## How to Use
 
