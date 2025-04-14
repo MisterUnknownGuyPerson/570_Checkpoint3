@@ -3,7 +3,7 @@
 
 This repository contains the full implementation for **Checkpoint 3** of the ECE570 course project. The code builds upon the work of Zhu et al.'s *Denoising Diffusion Models for Plug-and-Play Image Restoration* and adapts it for the novel task of **illumination enhancement** using conditional diffusion.
 
-I modified some scrips and included #570 comments to locate changes quickly. And I added to python files:
+I modified some scrips and included #570 comments to locate changes quickly. And I added two python files:
 1. Training a new model: in DiffPIR -> guided_diffusion -> train_dark2bright.py
 2. Inference: in DiffPIR -> main_ddpir_brighten.py
 
