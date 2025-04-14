@@ -44,6 +44,12 @@ All code is provided in this repository. However, due to file size limitations, 
    - change directory
    - start traininig
 
+### Inference
+   - Run the command python main_ddpir_brighten.py
+   - make sure terminal is in DiffPIR, and all file paths in main_ddpir_brighten.py changed for your use.
+Chagne main(): -> "model_path"; ; "input_dark_dir"; "output_dir":
+   - make sure images are 256x256 px
+
 ## NOTE
 The main thing you will need to edit in this code is the folder adresses. Specifically the code blocks in colab should be modified to use the directories where everything is located in your environment. Additionally in the file main_ddpir_brighten.py you will need to change the input, output, and model adresses before running inference.
 main_ddpir_brighten.py -> Specifically in main(): -> "model_path"; ; "input_dark_dir"; "output_dir":
