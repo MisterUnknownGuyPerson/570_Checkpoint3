@@ -8,7 +8,7 @@ I modified some scrips and included #570 comments to locate changes quickly. And
 2. Inference: in DiffPIR -> main_ddpir_brighten.py
 
 ## DEMO VIDEO 🎥
-[Demo Video on Google Drive](https://drive.google.com/file/d/1l811tM6O5mRNnPH54qx6yOt_EQHtCn_X/view?usp=drive_link)
+[Demo Video on Google Drive](https://drive.google.com/file/d/1HZLTIKme87oBS-yHr0nJv7Yj-MMDJUm8/view?usp=drive_link)
 
 ## 📦 Code and Models
 All code is provided in this repository. However, due to file size limitations, **trained model checkpoints** are hosted externally, you can download the code from this github, or the google drive bellow, however the models are only on the google drive.
