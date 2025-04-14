@@ -25,9 +25,8 @@ All code is provided in this repository. However, due to file size limitations, 
   https://github.com/yuanzhi-zhu/DiffPIR.git
 - OpenAI’s **guided-diffusion**:
   https://github.com/openai/guided-diffusion.git
-- Face dataset (FFHQ):  
+- Image dataset (FFHQ) (Images 60000–69000 were used.):  
   https://github.com/NVlabs/ffhq-dataset.git  
-  (Images 60000–69000 were used.)
 
 ## How to Use
 
