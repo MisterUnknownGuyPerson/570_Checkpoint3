@@ -32,7 +32,7 @@ All code is provided in this repository. However, due to file size limitations, 
 
 ### Environment
 
-- Run on **Google Colab Pro (A100 GPU)** for training - Use the .ipynb file and open google colab colab
+- Run on **Google Colab Pro (A100 GPU)** for training - Use the .ipynb file in this repository and open google  colab
 - Run on anything for inference
 
 ### Training Workflow
